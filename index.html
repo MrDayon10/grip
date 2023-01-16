@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .contaner{
+            display: grid;
+            grid-template-columns: repeat(7, 80px);
+            grid-gap: 10px;
+        }
+        .day,
+        .days,
+        .days-off
+        {
+            border: 2px solid greenyellow;
+            background-color: rgb(64, 116, 248);
+            width: 80px;
+            height: 60px;
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .day{
+            background-color: goldenrod;
+            
+        }
+        .days-off{
+            background-color:red;
+         
+        }
+        .day:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            background-color: aliceblue;
+            color: rgb(0, 119, 255);
+            border: 3px solid rgb(0, 153, 255);
+        }
+        .days:hover {
+            transform: scale(1.1);
+            transition: 1s;
+            background-color: rgb(253, 225, 10);
+            color: rgb(1, 6, 12);
+            border: 3px solid rgb(0, 153, 255);
+        }
+        .days-off:hover {
+            transform: scale(1.1);
+            transition: 1s;
+            background-color: rgb(241, 54, 17);
+            color: rgb(51, 240, 73);
+            border: 3px solid rgb(0, 153, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>2023</h1>
+<h1>JANUARY</h1>
+<div>
+   <div>
+    <div class="contaner">
+        <div class="day">FRI</div>
+        <div class="day">SAT</div>
+        <div class="day">SUN</div>
+        <div class="day">MON</div>
+        <div class="day">TUE</div>
+        <div class="day">WED</div>
+        <div class="day">THU</div>
+        <div class="days-off">1</div>
+        <div class="days-off">2</div>
+        <div class="days">3</div>
+        <div class="days">4</div>
+        <div class="days">5</div>
+        <div class="days">6</div>
+        <div class="days">7</div>
+        <div class="days-off">8</div>
+        <div class="days-off">9</div>
+        <div class="days">10</div>
+        <div class="days">11</div>
+        <div class="days">12</div>
+        <div class="days">13</div>
+        <div class="days">14</div>
+        <div class="days-off">15</div>
+        <div class="days-off">16</div>
+        <div class="days">17</div>
+        <div class="days">18</div>
+        <div class="days">19</div>
+        <div class="days">20</div>
+        <div class="days">21</div>
+        <div class="days-off">22</div>
+        <div class="days-off">23</div>
+        <div class="days">24</div>
+        <div class="days">25</div>
+        <div class="days">26</div>
+        <div class="days">27</div>
+        <div class="days">28</div>
+        <div class="days-off">29</div>
+        <div class="days-off">30</div>
+        <div class="days">31</div>
+        
+    </div>
+   </div>
+   
+</body>
+</html>
